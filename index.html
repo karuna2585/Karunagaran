@@ -1,7 +1,94 @@
+           
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:lightgreen;
+        }
+
+        header {
+            background-color:pink;
+            color:black;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative; /* Add this */
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+        }
+
+        /* Add styles for the round profile picture */
+        .profile-picture {
+            width: 100px; /* Adjust the size as needed */
+            height: 100px;
+            border-radius: 75%; /* Create a circular shape */
+            object-fit: cover; /* To ensure the image fills the circular area */
+            position: absolute; /* Add this */
+            top: 75px; /* Adjust top position as needed */
+            left: 75px; /* Adjust left position as needed */
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .section-content {
+            background-color: #fff;
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: justify;
+        }
+
+        .download-button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+            align-self: center;
+        }
+
+        .download-button:hover {
+            background-color:purple;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color:yellow;
+            color:black;
+        }
 
         ul {
             list-style-type: disc;
-            padding-left: 25px;
+            padding-left: 20px;
         }
     </style>
 </head>
@@ -9,60 +96,43 @@
     <header>
         <div class="header-content">
             <!-- Add your profile picture here -->
-            <nav style="picture size:50px;">
-            <img src="https://github.com/karuna2585/Karunagaran/blob/c5f7096078e84a7938ee13589e1ec6507d0685a2/pp01.jpg "alt="Your Profile Picture" class="profile-picture">
-            </nav>
-            <body style="background-color:pink;">
-                <nav style="background-color:white; height:25px;">
-               <h1>V.KARUNAGARAN </h1>
-               </nav>
-               <nav style="background-color:yellow; height:25px;">
-            <p>I AM ASSISTANT PROFESSOR</p>
-            </nav>
+            <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/test1/pp01.jpg" alt="Your Profile Picture" class="profile-picture">
+            <h1>V.KARUNAGARAN</h1>
+            <p>Am ASSISTANT PROFESSOR</p>
         </div>
     </header>
 
     <nav>
         <ul>
-            <nav style="background-color:skyblue; height:110px;">
-            
             <li><a href="#about">About</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#resume">Resume</a></li>
-            </nav>
            
         </ul>
     </nav>
-    
-<nav style="background-color:white; height:25px;">
+
     <section id="about">
         <div class="section-content">
             <h2>About Me</h2>
-            </nav>
-            
             <p>I'm a <b>teaching </b>expert and I would describe myself as a positive, energetic, knowledgeable, and industrious teacher. I have a flexible style of teaching that can cater to all students and abilities. I would also say that I am a high-achieving teacher. For example, in my last role, I managed to turn around an underperforming class.</p>
-           
+           </p></p>
         </div>
     </section>
-   
-    <nav style="background-color:white; height:25px;">
 
     <section id="education">
         <div class="section-content">
             <h2>Education</h2>
-            </nav>
             <p>MSC COMPUTER SCIENCE</p>
             
             
         </div>
     </section>
-<nav style="background-color:white; height:25px;">
+
     <section id="skills">
         <div class="section-content">
             <h2>Skills</h2>
-            </nav>
             <ul>
                 <li>CyberSecurity</li>
                 <li>Internet of Things</li>
@@ -78,37 +148,34 @@
             </ul>
         </div>
     </section>
-<nav style="background-color:white; height:25px;">
+
     <section id="projects">
         <div class="section-content">
             <h2>Projects</h2>
-            </nav>
             <ul>
-                <li><a href="https://www.researchgate.net/publication/224091515_Real_time_detection_of_alternator_failures_using_intelligent_control_systems"traget="_target">AI Based alternator control system</a></li>
+                 <li><a href="https://www.researchgate.net/publication/224091515_Real_time_detection_of_alternator_failures_using_intelligent_control_systems"traget="_target">AI Based alternator control system</a></li>
                 <li><a href="https://www.ibm.com/cloud-security"traget="_target">Cloud Security IBM</a></li>
                 <li><a href="https://cloud.ibm.com/registration?target=/catalog/services/watsonx-assistant%3FhideTours%3Dtrue%26&cm_sp=WatsonPlatform-WatsonPlatform-_-OnPageNavCTA-IBMWatson_Conversation-_-Watson_Developer_Website&utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=WAIWW&utm_term=20AJ5&utm_id=OnPageNav&adoper=242446_1_LS1"traget="_target">IBM chetbot</a></li>
                 <li><a href="https://cloud.google.com/use-cases/ai-chatbot?utm_source=google&utm_medium=cpc&utm_campaign=japac-IN-all-en-dr-BKWS-all-mv-athena-PHR-dr-1605216&utm_content=text-ad-none-none-DEV_m-CRE_688083911018-ADGP_Hybrid+%7C+BKWS+-+BRO+%7C+Txt+-AI+%26+ML-Dialogflow-chatbot+new+ai+landing+page-main-KWID_43700081107855121-kwd-3013382496&userloc_9061937-network_g&utm_term=KW_virtual+chat+bot&gad_source=1&gclid=Cj0KCQiAy8K8BhCZARIsAKJ8sfSjsGtpmBKI01ymONmT1COpxjEOa4hK76tJyrZ2M45uHgFEFJtnArsaAgWsEALw_wcB&gclsrc=aw.ds"traget="_target">chetbot</a></li> 
                 <li><a href="https://www.cgiar.org/research/program-platform/climate-change-agriculture-and-food-security/"traget="_target">CGIAR</a></li>
-                <li><a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit%20user%20files/testw.html"traget="_target">my profile</a></li>
-                <!-- Add more project links here -->
+              <!-- Add more project links here -->
             </ul>
         </div>
     </section>
-    <nav style="background-color:white; height:25px;">
 
     <section id="resume">
     
         <div class="section-content">
             <center>
             <h2>Resume</h2>
-            <a href="./mycv.pdf" target="_blank" class="download-button">Download CV</a>
+            <a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit%20user%20files/testw.html"" target="_blank" class="download-button">Download CV</a>
         </center>
         </div>
         
     </section>
-</nav>
+
     <footer>
-        <p>&copy;@2000 karuna</p>
+        <p>&copy; 2000 V KARUNAGARAN</p>
     </footer>
 
     <script>
